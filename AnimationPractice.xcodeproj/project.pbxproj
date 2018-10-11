@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4827BE07216B52FD00C2E858 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827BE06216B52FD00C2E858 /* Person.swift */; };
+		4827BE09216B530F00C2E858 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827BE08216B530F00C2E858 /* PersonCell.swift */; };
+		4827BE0B216B533F00C2E858 /* GenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827BE0A216B533F00C2E858 /* GenericCell.swift */; };
+		4827BE0D216B537A00C2E858 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827BE0C216B537A00C2E858 /* GenericTableViewController.swift */; };
+		4827BE0F216B53AD00C2E858 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827BE0E216B53AD00C2E858 /* PeopleViewController.swift */; };
 		48986922210B145600CADE9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48986921210B145600CADE9A /* AppDelegate.swift */; };
 		48986924210B145600CADE9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48986923210B145600CADE9A /* ViewController.swift */; };
 		48986927210B145600CADE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48986925210B145600CADE9A /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4827BE06216B52FD00C2E858 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4827BE08216B530F00C2E858 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		4827BE0A216B533F00C2E858 /* GenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCell.swift; sourceTree = "<group>"; };
+		4827BE0C216B537A00C2E858 /* GenericTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
+		4827BE0E216B53AD00C2E858 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		4898691E210B145600CADE9A /* AnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48986921210B145600CADE9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48986923210B145600CADE9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +45,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4827BE03216B526300C2E858 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				4827BE06216B52FD00C2E858 /* Person.swift */,
+				4827BE08216B530F00C2E858 /* PersonCell.swift */,
+				4827BE0A216B533F00C2E858 /* GenericCell.swift */,
+				4827BE0C216B537A00C2E858 /* GenericTableViewController.swift */,
+				4827BE0E216B53AD00C2E858 /* PeopleViewController.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		4827BE10216B659A00C2E858 /* CountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CountingLabel;
+			sourceTree = "<group>";
+		};
 		48986915210B145600CADE9A = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +83,8 @@
 		48986920210B145600CADE9A /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				4827BE10216B659A00C2E858 /* CountingLabel */,
+				4827BE03216B526300C2E858 /* Generic */,
 				48986933210B1C4A00CADE9A /* FaceBook */,
 				48986921210B145600CADE9A /* AppDelegate.swift */,
 				48986925210B145600CADE9A /* Main.storyboard */,
@@ -143,7 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4827BE0B216B533F00C2E858 /* GenericCell.swift in Sources */,
+				4827BE0F216B53AD00C2E858 /* PeopleViewController.swift in Sources */,
+				4827BE0D216B537A00C2E858 /* GenericTableViewController.swift in Sources */,
+				4827BE09216B530F00C2E858 /* PersonCell.swift in Sources */,
 				48986924210B145600CADE9A /* ViewController.swift in Sources */,
+				4827BE07216B52FD00C2E858 /* Person.swift in Sources */,
 				48986922210B145600CADE9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

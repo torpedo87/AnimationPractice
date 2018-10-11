@@ -18,7 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Override point for customization after application launch.
     window = UIWindow()
     window?.makeKeyAndVisible()
+    
+    //facebook
     window?.rootViewController = ViewController()
+    
+    //instagram
+    //window?.rootViewController = UINavigationController(rootViewController: PeopleViewController())
+    
     return true
   }
 
