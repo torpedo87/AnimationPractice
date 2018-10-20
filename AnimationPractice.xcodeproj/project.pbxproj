@@ -12,6 +12,8 @@
 		4827BE0B216B533F00C2E858 /* GenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827BE0A216B533F00C2E858 /* GenericCell.swift */; };
 		4827BE0D216B537A00C2E858 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827BE0C216B537A00C2E858 /* GenericTableViewController.swift */; };
 		4827BE0F216B53AD00C2E858 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827BE0E216B53AD00C2E858 /* PeopleViewController.swift */; };
+		48937DA5216F4358003EBFCE /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48937DA4216F4358003EBFCE /* CurvedView.swift */; };
+		48937DA7216F436F003EBFCE /* CurvedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48937DA6216F436F003EBFCE /* CurvedViewController.swift */; };
 		48986922210B145600CADE9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48986921210B145600CADE9A /* AppDelegate.swift */; };
 		48986924210B145600CADE9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48986923210B145600CADE9A /* ViewController.swift */; };
 		48986927210B145600CADE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48986925210B145600CADE9A /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 		4827BE0A216B533F00C2E858 /* GenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCell.swift; sourceTree = "<group>"; };
 		4827BE0C216B537A00C2E858 /* GenericTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
 		4827BE0E216B53AD00C2E858 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		48937DA4216F4358003EBFCE /* CurvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
+		48937DA6216F436F003EBFCE /* CurvedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedViewController.swift; sourceTree = "<group>"; };
 		4898691E210B145600CADE9A /* AnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48986921210B145600CADE9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48986923210B145600CADE9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				48986923210B145600CADE9A /* ViewController.swift */,
+				48937DA4216F4358003EBFCE /* CurvedView.swift */,
+				48937DA6216F436F003EBFCE /* CurvedViewController.swift */,
 			);
 			path = FaceBook;
 			sourceTree = "<group>";
@@ -174,8 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48937DA5216F4358003EBFCE /* CurvedView.swift in Sources */,
 				4827BE0B216B533F00C2E858 /* GenericCell.swift in Sources */,
 				4827BE0F216B53AD00C2E858 /* PeopleViewController.swift in Sources */,
+				48937DA7216F436F003EBFCE /* CurvedViewController.swift in Sources */,
 				4827BE0D216B537A00C2E858 /* GenericTableViewController.swift in Sources */,
 				4827BE09216B530F00C2E858 /* PersonCell.swift in Sources */,
 				48986924210B145600CADE9A /* ViewController.swift in Sources */,

@@ -52,7 +52,7 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    title = "Like"
     view.backgroundColor = .green
     setupLongGesture()
     

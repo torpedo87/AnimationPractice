@@ -20,7 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window?.makeKeyAndVisible()
     
     //facebook
-    window?.rootViewController = ViewController()
+    //window?.rootViewController = UINavigationController(rootViewController: ViewController())
+    window?.rootViewController = CurvedViewController()
     
     //instagram
     //window?.rootViewController = UINavigationController(rootViewController: PeopleViewController())
