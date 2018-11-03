@@ -20,6 +20,8 @@
 		48986927210B145600CADE9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48986925210B145600CADE9A /* Main.storyboard */; };
 		48986929210B145700CADE9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48986928210B145700CADE9A /* Assets.xcassets */; };
 		4898692C210B145700CADE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4898692A210B145700CADE9A /* LaunchScreen.storyboard */; };
+		48F47613218453D100D010C6 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F47612218453D100D010C6 /* CardViewController.swift */; };
+		48F47617218458DA00D010C6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F47616218458DA00D010C6 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		48986928210B145700CADE9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4898692B210B145700CADE9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4898692D210B145700CADE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F47612218453D100D010C6 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		48F47616218458DA00D010C6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 		48986920210B145600CADE9A /* AnimationPractice */ = {
 			isa = PBXGroup;
 			children = (
+				48F47611218453BE00D010C6 /* CardView */,
 				4827BE10216B659A00C2E858 /* CountingLabel */,
 				4827BE03216B526300C2E858 /* Generic */,
 				48986933210B1C4A00CADE9A /* FaceBook */,
@@ -110,6 +115,15 @@
 				483F90ED217ABF2F000FA821 /* ShimmerViewController.swift */,
 			);
 			path = FaceBook;
+			sourceTree = "<group>";
+		};
+		48F47611218453BE00D010C6 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				48F47612218453D100D010C6 /* CardViewController.swift */,
+				48F47616218458DA00D010C6 /* BaseViewController.swift */,
+			);
+			path = CardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F47617218458DA00D010C6 /* BaseViewController.swift in Sources */,
 				48937DA5216F4358003EBFCE /* CurvedView.swift in Sources */,
 				4827BE0B216B533F00C2E858 /* GenericCell.swift in Sources */,
 				4827BE0F216B53AD00C2E858 /* PeopleViewController.swift in Sources */,
@@ -191,6 +206,7 @@
 				4827BE0D216B537A00C2E858 /* GenericTableViewController.swift in Sources */,
 				4827BE09216B530F00C2E858 /* PersonCell.swift in Sources */,
 				48986924210B145600CADE9A /* ViewController.swift in Sources */,
+				48F47613218453D100D010C6 /* CardViewController.swift in Sources */,
 				4827BE07216B52FD00C2E858 /* Person.swift in Sources */,
 				48986922210B145600CADE9A /* AppDelegate.swift in Sources */,
 			);

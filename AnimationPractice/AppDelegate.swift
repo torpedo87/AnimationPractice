@@ -22,11 +22,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //facebook
     //window?.rootViewController = UINavigationController(rootViewController: ViewController())
     //window?.rootViewController = CurvedViewController()
-    window?.rootViewController = ShimmerViewController()
+    //window?.rootViewController = ShimmerViewController()
     
     //instagram
     //window?.rootViewController = UINavigationController(rootViewController: PeopleViewController())
     
+    //cardView
+    window?.rootViewController = BaseViewController()
     return true
   }
 
